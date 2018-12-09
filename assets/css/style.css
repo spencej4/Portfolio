@@ -279,10 +279,6 @@ a {
 
     @media (min-width: 320px) and (max-width: 480px) {
   
-        body {
-            background-color: lightgrey;
-        }
-
         #header-container {
             height: 80px;
             position: relative;
