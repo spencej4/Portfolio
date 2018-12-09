@@ -34,7 +34,7 @@ body {
   font-size: 14px;
   line-height: 1;
   background-size: 100% 100%;
-  background-image: url("./images/background.JPG");
+  background-image: url("assets/images/background.JPG");
   background-repeat: no-repeat;
   background-position: center;
   z-index: 1;
