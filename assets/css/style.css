@@ -367,7 +367,7 @@ a {
             height: 100vh;
             display: block;
             position: absolute;;
-            background-color: rgba(54, 62, 68, 0.60);
+            background-color: rgba(78, 79, 80, 0.75);
             z-index: 15;
             transition: transform 600ms;
             transition-timing-function: cubic-bezier(0,1.09,.82,1.07);
