@@ -288,6 +288,10 @@ a {
             position: relative;
         }
 
+        #header-nav {
+            height: 18vh;
+        }
+
         #logo {
             top: 21px;
             width: 57%;
@@ -409,6 +413,22 @@ a {
             font-size: 30px;
             font-family: 'HelveticaNeue-Ultralight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
             font-weight: 100;
+        }
+
+        #recent-work-container {
+            padding-right: 5px;
+            padding-left: 5px;
+        }
+
+        .work-item {
+            width: 100%;
+            height: 371px;
+            margin-bottom: 59px;
+        }
+
+        .work-item-image {
+            width: 100%;
+            height: auto;
         }
   
 

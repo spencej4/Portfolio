@@ -1,7 +1,7 @@
 let pageLocation = '';
 
 
-//--show menu 
+// shows menu 
 $('.hamburger_click_me').on('click', function() {
     this.classList.toggle("change");
 
@@ -20,10 +20,26 @@ $('.hamburger_click_me').on('click', function() {
     }
 });
 
-$('.nav-link').click(function(e) {
+// changes page content based on nav click
+    $(function() {
+        $('.mobile-link').on('click', function(e) {
+            e.preventDefault();
+            //hide nav menu
+            $('#main_navbar').removeClass('show');
+            $('#main_navbar').addClass('hidden');
+            //remove opacity screen
+            $('#full_page_opacity_screen').removeClass('show');
+            $('#full_page_opacity_screen').addClass('hidden')
+            //for mobile view, hide menu when link is clicked
+            if (window.matchMedia("(max-width: 768px)").matches){
+                $('#nav').removeClass('show');
+            }
+        })
+    });
+
+$('.nav-link, .mobile-link').click(function(e) {
     e.preventDefault();
     let id = $(this).attr('id');
-    console.log(`Nav Link ID: ${id}`);
     switch(true) {
         case (id ==='home'):
             homepageCheck(true);
@@ -51,17 +67,14 @@ function homepageCheck(boolean) {
 }
 
 function renderPage(page) {
-    console.log(`page: ${page}`);
     if (page === 'about') {
         pageLocation = 'about';
-        console.log(`Page Location: ${pageLocation}`);
         $('#body-container').css('display', 'block');
         $('#recent-work-container').css('display', 'none');
         $('#about-container').css('display', 'block');
     }
     else if (page === 'recent') {
         pageLocation = 'recent-work';
-        console.log(`Page Location: ${pageLocation}`);
         $('#body-container').css('display', 'block');
         $('#recent-work-container').css('display', 'block');
         $('#about-container').css('display', 'none');
