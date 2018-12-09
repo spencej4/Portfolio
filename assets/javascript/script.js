@@ -59,7 +59,7 @@ $('.nav-link, .mobile-link').click(function(e) {
 function homepageCheck(boolean) {
     if (boolean === true) {
         // show homepage
-        $('body').css('background-image', 'url("./assets/images/background.jpg")');
+        $('body').css('background-image', 'url("https://images.unsplash.com/photo-1478031706604-bb4b7b0b4e9e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80")');
     }if (boolean === false) {
         // don't show homepage
         $('body').css('background-image', 'none');
