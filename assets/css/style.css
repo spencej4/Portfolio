@@ -345,31 +345,35 @@ a {
             display: none;
         }
 
-        #main_navbar {
+        .main_navbar {
             overflow: hidden;
-
             top: 0;
-            /* left: 0; */
+            left: -290px;
             width: 290px;
-            height: 100%;
-            position: fixed;
+            height: 100vh;
+            position: absolute;;
             background-color: rgba(54, 62, 68, 0.40);
             z-index: 15;
-            transition: all 60ms cubic-bezier(0.03, 0.99, 0.51, 1.02);
+            transition: transform 600ms;
+            transition-timing-function: cubic-bezier(0,.99,.9,1);
         }
 
-        #side_nav_menu {
+        .main_navbar.animate, .side_nav_menu.animate {
+            transform: translateX(290px);
+        }
+
+        .side_nav_menu {
             overflow: hidden;
             top: 0;
-            /* left: -270px;; */
             width: 290px;
             height: 100%;
             position: absolute;
-            /* display: inline-block; */
+            display: inline-block;
             padding-top: 3.5em;
             z-index: 15;
             line-height: 1;
-            transition: all 60ms cubic-bezier(0.03, 0.99, 0.51, 1.02);
+            transition: transform 600ms;
+            transition-timing-function: cubic-bezier(0,.99,.9,1);
         }
 
         .slideLeft {
