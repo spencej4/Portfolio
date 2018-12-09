@@ -297,17 +297,23 @@ a {
 
         #logo {
             top: 21px;
+            left: 12px;
             width: 57%;
         }
         .logo-font {
-            margin-right: 10px;
+            padding-right: 7px;
         }
 
         .logo-font, .logo-font-with-color{
             font-size: 29px;
             margin: 0;
-            padding: 0;
+            /* padding: 0; */
         }
+
+        .logo-font-with-color {
+            letter-spacing: 3px;
+        }
+
 
         .nav-list {
             top: 0;
@@ -330,7 +336,7 @@ a {
 
         .hamburger_click_me {
             top: 18px;
-            right: 18px;
+            right: 6px;
             width: 3.5rem;
             height: 2.7rem;
             position: relative;
@@ -361,7 +367,7 @@ a {
             height: 100vh;
             display: block;
             position: absolute;;
-            background-color: rgba(54, 62, 68, 0.40);
+            background-color: rgba(54, 62, 68, 0.60);
             z-index: 15;
             transition: transform 600ms;
             transition-timing-function: cubic-bezier(0,1.09,.82,1.07);
@@ -375,10 +381,8 @@ a {
             width: 309px;
             height: 100%;
             padding-top: 60px;
-            padding-left: 53px;
+            padding-left: 32px;
             z-index: 15;
-            /* transition: transform 600ms; */
-            /* transition-timing-function: cubic-bezier(0,.99,.9,1); */
         }
 
         #full_page_opacity_screen {
