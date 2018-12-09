@@ -389,7 +389,7 @@ a {
             position: fixed;
             background-color: rgba(102, 102, 102, 0.7);
             z-index: 5;
-            transition: 0.10s ease-in;
+            /* transition: 0.10s ease-in; */
         }
 
 
