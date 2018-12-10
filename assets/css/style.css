@@ -438,13 +438,13 @@ a {
 
         #github{
             position: absolute;
-            bottom: 40px;
+            bottom: 130px;
         }
 
         #jsfiddle {
             position: absolute;
-            bottom: 40px;
-            right: 40px;
+            bottom: 130px;
+            left: 50px;
         }
 
         .mobile-link {
