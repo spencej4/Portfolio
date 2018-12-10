@@ -405,27 +405,35 @@ a {
         .side_nav_menu li {
             height: 42px;
             margin-top: 10px;
-            /* text-transform: uppercase; */
             text-align: left;
             display: inline-block;
             vertical-align: top;
             color: #ffffff;
-
             width: 100%;
             border-bottom: 1px solid rgba(225, 232, 244, 0.4);
         }
 
-        /* .side_nav_menu li:not(:nth-child(n + 4)):hover {
-            background-color: rgba(247, 247, 247, 0.3);
-        } */
+        .icon {
+            width: 27px;
+            height: 27px;
+            margin-left: 65px;
+            vertical-align: middle;
+        }
 
         .mobile-link {
-            margin-left: 64px;
+            margin-left: 12px;
+            height: 51px;
+            text-align: center;
+            vertical-align: middle;
             color: #ffffff;
             font-size: 30px;
             font-family: 'HelveticaNeue-Ultralight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
             font-weight: 100;
-            vertical-align: middle;
+        }
+
+        .link-text {
+            top: 0;
+            display: inline-block;
         }
 
         #recent-work-container {
