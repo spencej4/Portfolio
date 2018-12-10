@@ -472,8 +472,26 @@ a {
 
         .work-item {
             width: 100%;
-            height: 371px;
+            height: 377px;
             margin-bottom: 59px;
+            padding-bottom: 20px;
+            border: 1px solid lightgrey;
+            background-color: rgba(18.8, 17.6, 18.4,0.1);
+        }
+
+        .work-copy {
+            text-align: center
+        }
+
+        .work-title, .work-description, .github-repo {
+            color: #000;
+        }
+
+        .github-repo {
+            bottom: 0;
+            left: 106px;
+            padding-bottom: 16px;
+            position: absolute;
         }
 
         .work-item:nth-of-type(2) {
