@@ -420,6 +420,33 @@ a {
             vertical-align: middle;
         }
 
+        .icon-inline:first-of-type {
+            margin-left: 65px;
+        }
+
+        .icon-inline {
+            width: 27px;
+            height: 27px;
+            margin-left: 2px;
+            vertical-align: middle;
+            display: inline-block;
+        }
+
+        .link-inline {
+            display: inline-block;
+        }
+
+        #github{
+            position: absolute;
+            bottom: 40px;
+        }
+
+        #jsfiddle {
+            position: absolute;
+            bottom: 40px;
+            right: 40px;
+        }
+
         .mobile-link {
             margin-left: 12px;
             height: 51px;
