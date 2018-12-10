@@ -442,8 +442,10 @@ a {
         }
 
         #jsfiddle {
+            width: 36px;
+            height: 36px;
             position: absolute;
-            bottom: 130px;
+            bottom: 126px;
             left: 50px;
         }
 
