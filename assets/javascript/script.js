@@ -4,34 +4,21 @@ let mobileMenuRendered = false;
 
 // shows menu 
 $('.hamburger_click_me').click(function() {
-    console.log('hamburger clicked');
     toggleMobileMenu();
 });
 
 function toggleMobileMenu() {
     if (mobileMenuRendered === false){
         mobileMenuRendered = true;
-        // $("#main_navbar").animate({
-        //     width: "toggle"
-        // });
         $(".main_navbar").toggleClass('animate');
-
-        // original
-        // $("#main_navbar").animate({left: '0px'});
         $(".side_nav_menu").fadeIn( "fast");
         return
     } 
     else if (mobileMenuRendered === true){
         mobileMenuRendered = false;
-        // $("#main_navbar").animate({width: "toggle"});
         $(".main_navbar").toggleClass('animate');
-
-        // original
-        // $("#main_navbar").animate({left: '-290px'});
         $("#side_nav_menu").fadeOut( "fast");
         return
-        // $("#side_nav_menu").removeClass('slideLeft')
-        // $("#full_page_opacity_screen").css('display', 'none');
     }
 }
 
