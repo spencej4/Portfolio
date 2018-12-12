@@ -27,7 +27,7 @@ html {
 body {
   margin: 0;
   width: 100vw;
-  height: 100vh;
+  /* font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
   font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-weight: 100;
@@ -287,7 +287,7 @@ a {
         position: absolute;
     }
 
-@media (min-width: 320px) and (max-width: 480px) {
+    @media (min-width: 320px) and (max-width: 480px) {
   
         #header-container {
             height: 80px;
@@ -492,7 +492,8 @@ a {
             width: 100%;
             height: auto;
         }
-}
+
+    }
 
     /* #full_page_opacity_screen {
             overflow: hidden;
