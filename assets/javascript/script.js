@@ -5,11 +5,11 @@ let sticky = header.offsetTop;
 
 
 window.onscroll = function() {
-    myFunction()
+    stickyHeader()
 };
 
 // sets header to fixed on Y axis scroll
-function myFunction() {
+function stickyHeader() {
   if (window.pageYOffset > sticky) {
     header.classList.add("sticky");
     $('.pseudo-layer').css('display', 'inline-block');
@@ -24,6 +24,7 @@ $('.hamburger_click_me').click(function() {
     toggleMobileMenu();
 });
 
+// slides mobile menu in and out
 function toggleMobileMenu() {
     if (mobileMenuRendered === false){
         mobileMenuRendered = true;
@@ -41,8 +42,12 @@ function toggleMobileMenu() {
     }
 }
 
+// prevents/ enables Y-Scroll 
 function lockScroll() {
     if (mobileMenuRendered) {
+        $('body').addClass('lock-scroll');
+        $('#body-container').addClass('lock-scroll');
+    }else if (window.screen.width <= 734) {
         $('body').addClass('lock-scroll');
         $('#body-container').addClass('lock-scroll');
     }else if ($('body').hasClass('lock-scroll')) {
@@ -53,23 +58,24 @@ function lockScroll() {
 
 
 // changes page content based on nav click
-    $(function() {
-        $('.mobile-link').on('click', function(e) {
-            e.preventDefault();
-            toggleMobileMenu();
-            //hide nav menu
-            $('#main_navbar').removeClass('show');
-            $('#main_navbar').addClass('hidden');
-            //remove opacity screen
-            $('#full_page_opacity_screen').removeClass('show');
-            $('#full_page_opacity_screen').addClass('hidden')
-            //for mobile view, hide menu when link is clicked
-            if (window.matchMedia("(max-width: 768px)").matches){
-                $('#nav').removeClass('show');
-            }
-        })
-    });
+$(function() {
+    $('.mobile-link').on('click', function(e) {
+        e.preventDefault();
+        toggleMobileMenu();
+        //hide nav menu
+        $('#main_navbar').removeClass('show');
+        $('#main_navbar').addClass('hidden');
+        //remove opacity screen
+        $('#full_page_opacity_screen').removeClass('show');
+        $('#full_page_opacity_screen').addClass('hidden')
+        //for mobile view, hide menu when link is clicked
+        if (window.matchMedia("(max-width: 768px)").matches){
+            $('#nav').removeClass('show');
+        }
+    })
+});
 
+// grabs id of links clicked/ calls renderPage with param
 $('.nav-link, .mobile-link').click(function(e) {
     e.preventDefault();
     let id = $(this).attr('id');
@@ -97,6 +103,8 @@ $('.nav-link, .mobile-link').click(function(e) {
     }
 })
 
+
+// shows/ hides homepage background image
 function homepageCheck(boolean) {
     if (boolean === true) {
         // show homepage
@@ -107,6 +115,7 @@ function homepageCheck(boolean) {
     }
 }
 
+// accept param, updates 'page' displayed in body container
 function renderPage(page) {
     if (page === 'about') {
         pageLocation = 'about';

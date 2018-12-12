@@ -356,6 +356,7 @@ a {
     @media (min-width: 320px) and (max-width: 734px) {
         .top-container {
             display: none;
+            padding: 0;
         }
 
         #header-container {
