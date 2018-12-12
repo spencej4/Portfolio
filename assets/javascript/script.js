@@ -1,6 +1,23 @@
 let pageLocation = '';
 let mobileMenuRendered = false;
+let header = document.getElementById("header-container");
+let sticky = header.offsetTop;
 
+
+window.onscroll = function() {
+    myFunction()
+};
+
+// sets header to fixed on Y axis scroll
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+    $('.pseudo-layer').css('display', 'inline-block');
+  } else {
+    header.classList.remove("sticky");
+    $('.pseudo-layer').css('display', 'none');
+  }
+}
 
 // shows menu 
 $('.hamburger_click_me').click(function() {

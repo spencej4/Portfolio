@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <div class="top-container"></div>
     <header id='header-nav'>
         <div id='header-container'>
             <div id='logo'>
@@ -69,6 +70,8 @@
         </div>
     </header>
     <div id='body-container'>
+        <div class='pseudo-layer' id='layer-left'></div>
+        <div class='pseudo-layer' id='layer-right'></div>
         <div id='about-container'>
             <div id='about-me'>
                 <p class='about-font'>
@@ -88,7 +91,20 @@
         <div id='background-container'></div>
         <div id='recent-work-container'>
             <div id='work-items'>
-                <div class='work-item' id='1'>
+                <div class='work-item'>
+                    <a href ='https://spencej4.github.io/E_4S/'><img class='work-item-image' src='assets/images/e_4s.png'>
+                        <div class='work-copy'>
+                            <p class='work-title'>
+                                E_4S Gallery - Spencer Jack
+                            </p>
+                    </a>
+                        <p class='work-description'>
+                            This app is a simple image gallery, showcasing my love for CSS.
+                        </p>
+                        <a href ='https://github.com/spencej4/E_4S' class='github-repo'>Github Repository</a>
+                        </div>
+                </div>
+                <div class='work-item'>
                     <img class='work-item-image' src='assets/images/squixel.png'>
                     <div class='work-copy'>
                         <p class='work-title'>
@@ -101,20 +117,8 @@
                         <a href ='' class='github-repo'>Github Repository</a>       
                     </div>
                 </div>
-                <div class='work-item' id='2'>
-                    <a href ='https://spencej4.github.io/E_4S/'><img class='work-item-image' src='assets/images/e_4s.png'>
-                        <div class='work-copy'>
-                            <p class='work-title'>
-                                E_4S Gallery - Spencer Jack
-                            </p>
-                    </a>
-                        <p class='work-description'>
-                            This app is a simple image gallery, showcasing my love for CSS.
-                        </p>
-                        <a href ='https://github.com/spencej4/E_4S' class='github-repo'>Github Repository</a>
-                    </div>
-                </div>
-                <div class='work-item' id='3'>
+                
+                <div class='work-item'>
                     <img class='work-item-image' src='assets/images/monks.png'>
                     <div class='work-copy'>
                         <p class='work-title'>
@@ -127,7 +131,7 @@
                         <a href ='' class='github-repo'>Github Repository</a>            
                     </div>
                 </div>
-                <div class='work-item' id='4'>
+                <div class='work-item'>
                     <a href ='https://spencej4.github.io/unit-4-game/'>
                         <img class='work-item-image' src='assets/images/star-wars.png'>
                         <div class='work-copy'>
@@ -140,10 +144,8 @@
                         </p>
                         <a href ='https://github.com/spencej4/unit-4-game' 
                         class='github-repo'>Github Repository</a>            
-                    </div>
                 </div>
             </div>
-        </div>
         </div>
     </div>
 
