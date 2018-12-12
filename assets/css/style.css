@@ -175,7 +175,7 @@ a {
 }
 
 #nav-items {
-    width: 39%;
+    width: 51%;
     margin-top: 22px;
     float: right;
     display: inline-block;
@@ -328,11 +328,7 @@ a {
 
 
 /* MOBILE */
-    @media (min-width: 320px) and (max-width: 480px) {
-
-        #body-container {
-            margin-top: 20px;
-        }
+    @media (min-width: 320px) and (max-width: 734px) {
         .top-container {
             display: none;
         }
@@ -340,6 +336,10 @@ a {
         #header-container {
             padding-left: 0;
             padding-right: 0;
+        }
+        
+        #body-container {
+            margin-top: 20px;
         }
         
         .sticky {
