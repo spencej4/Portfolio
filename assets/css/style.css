@@ -127,7 +127,7 @@ a {
 #layer-right {
     width: 3.9%;
     float: right;
-    left: 96.67%;
+    left: 96.28%;
     background-color: #FFFFFF
 } 
 
@@ -329,6 +329,10 @@ a {
 
 /* MOBILE */
     @media (min-width: 320px) and (max-width: 480px) {
+
+        #body-container {
+            margin-top: 20px;
+        }
         .top-container {
             display: none;
         }
@@ -337,9 +341,9 @@ a {
             padding-left: 0;
             padding-right: 0;
         }
+        
         .sticky {
             border-bottom: none;
-
         }
         .pseudo-layer {
             display: none;
@@ -513,10 +517,6 @@ a {
         .link-text {
             top: 0;
             display: inline-block;
-        }
-
-        #body-container {
-            margin: 0;
         }
 
         #recent-work-container {
