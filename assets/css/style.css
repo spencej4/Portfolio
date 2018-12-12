@@ -293,7 +293,10 @@ a {
     }
 
     @media (min-width: 320px) and (max-width: 480px) {
-  
+        .nav-list {
+            display: none;
+        }
+
         #header-container {
             height: 80px;
             position: relative;
