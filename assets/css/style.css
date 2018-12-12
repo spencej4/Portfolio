@@ -233,6 +233,11 @@ a {
     display: none;
 }
 
+.page-title {
+    font-weight: 100;
+    font-size: 3em;
+}
+
 /* -----------------------------about -----------------------------*/
 #about-container {
     width: 100%;
@@ -325,6 +330,26 @@ a {
         font-size: 18px;
         position: absolute;
     }
+/* -------------------------contact me -----------------------------*/
+#contact-container {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto 10% auto;;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    display: none;
+}
+
+    .contact {
+        font-size: 28px;
+        font-weight: 100;
+    }
+
+    .icon-large {
+            width: 50px;
+            height: 50;
+    }
 
 
 /* MOBILE */
@@ -345,6 +370,7 @@ a {
         .sticky {
             border-bottom: none;
         }
+
         .pseudo-layer {
             display: none;
             z-index: 0;
@@ -360,7 +386,7 @@ a {
         }
 
         #header-nav {
-            height: 18vh;
+            height: 13vh;
         }
 
         #logo {
@@ -467,6 +493,11 @@ a {
             border-bottom: 1px solid rgba(225, 232, 244, 0.4);
         }
 
+        .icon-large {
+            width: 50px;
+            height: 50;
+        }
+
         .icon {
             width: 25px;
             height: 25px;
@@ -565,6 +596,10 @@ a {
             height: auto;
         }
 
+        #contact-container {
+            padding-right: 5px;
+            padding-left: 5px;
+        }
     }
 
 /* LARGE DESKTOP */
@@ -601,6 +636,10 @@ a {
 
     .github-repo {
         bottom: 40px;
+    }
+
+    #contact-container {
+        /* updates pending */
     }
 
 }

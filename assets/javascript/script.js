@@ -75,17 +75,30 @@ $('.nav-link, .mobile-link').click(function(e) {
     let id = $(this).attr('id');
     switch(true) {
         case (id ==='home'):
+            console.log(id);
             homepageCheck(true);
             $('#body-container').css('display', 'none');
-            break
+            break;
         case (id === 'about'):
+        console.log(id);
             homepageCheck(false)
             renderPage('about');
-            break
+            break;
+        case (id === 'background'):
+            console.log(id);
+            homepageCheck(false)
+            renderPage('background');
+            break;
         case (id === 'recent-work'):
+            console.log(id);
             homepageCheck(false);
             renderPage('recent');
-            break
+            break;
+        case (id === 'contact'):
+            console.log(id);
+            homepageCheck(false);
+            renderPage('contact');
+            break;
     }
 })
 
@@ -100,17 +113,27 @@ function homepageCheck(boolean) {
 }
 
 function renderPage(page) {
+    // console.log(page);
+
     if (page === 'about') {
         pageLocation = 'about';
         $('#body-container').css('display', 'block');
         $('#recent-work-container').css('display', 'none');
         $('#about-container').css('display', 'block');
-    }
-    else if (page === 'recent') {
+        $('#contact-container').css('display', 'none');
+    }else if (page === 'recent') {
         pageLocation = 'recent-work';
         $('#body-container').css('display', 'block');
         $('#recent-work-container').css('display', 'block');
         $('#about-container').css('display', 'none');
+        $('#contact-container').css('display', 'none');
+    }else if(page === 'contact') {
+        pageLocation = 'contact';
+        $('#body-container').css('display', 'block');
+        $('#recent-work-container').css('display', 'none');
+        $('#about-container').css('display', 'none');
+        $('#contact-container').css('display', 'block');
+
     }
 }
 
