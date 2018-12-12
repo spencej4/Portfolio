@@ -27,7 +27,6 @@ html {
 body {
   margin: 0;
   width: 100vw;
-  /* font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
   font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-weight: 100;
@@ -366,7 +365,7 @@ a {
             height: 100vh;
             display: block;
             position: absolute;;
-            background-color: rgba(78, 79, 80, 0.75);
+            background-color: rgba(71, 76, 88, .85);
             z-index: 15;
             transition: transform 600ms;
             transition-timing-function: cubic-bezier(0,1.09,.82,1.07);
