@@ -337,7 +337,10 @@ a {
             padding-left: 0;
             padding-right: 0;
         }
-        
+        .sticky {
+            border-bottom: none;
+
+        }
         .pseudo-layer {
             display: none;
             z-index: 0;
@@ -510,6 +513,10 @@ a {
         .link-text {
             top: 0;
             display: inline-block;
+        }
+
+        #body-container {
+            margin: 0;
         }
 
         #recent-work-container {
