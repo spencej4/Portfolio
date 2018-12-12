@@ -329,6 +329,20 @@ a {
 
 /* MOBILE */
     @media (min-width: 320px) and (max-width: 480px) {
+        .top-container {
+            display: none;
+        }
+
+        #header-container {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        
+        .pseudo-layer {
+            display: none;
+            z-index: 0;
+        }
+
         .nav-list {
             display: none;
         }
