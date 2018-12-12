@@ -12,15 +12,26 @@ function toggleMobileMenu() {
         mobileMenuRendered = true;
         $(".main_navbar").toggleClass('animate');
         $(".side_nav_menu").fadeIn( "fast");
+        lockScroll();
         return
     } 
     else if (mobileMenuRendered === true){
         mobileMenuRendered = false;
         $(".main_navbar").toggleClass('animate');
         $("#side_nav_menu").fadeOut( "fast");
+        lockScroll();
         return
     }
 }
+
+function lockScroll() {
+    if (mobileMenuRendered) {
+        $('body').addClass('lock-scroll');
+    }else if ($('body').hasClass('lock-scroll')) {
+        $('body').removeClass('lock-scroll');
+    }
+}
+
 
 // changes page content based on nav click
     $(function() {
