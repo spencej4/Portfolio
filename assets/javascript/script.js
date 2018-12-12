@@ -75,27 +75,22 @@ $('.nav-link, .mobile-link').click(function(e) {
     let id = $(this).attr('id');
     switch(true) {
         case (id ==='home'):
-            console.log(id);
             homepageCheck(true);
             $('#body-container').css('display', 'none');
             break;
         case (id === 'about'):
-        console.log(id);
             homepageCheck(false)
             renderPage('about');
             break;
         case (id === 'background'):
-            console.log(id);
             homepageCheck(false)
             renderPage('background');
             break;
         case (id === 'recent-work'):
-            console.log(id);
             homepageCheck(false);
             renderPage('recent');
             break;
         case (id === 'contact'):
-            console.log(id);
             homepageCheck(false);
             renderPage('contact');
             break;
@@ -113,8 +108,6 @@ function homepageCheck(boolean) {
 }
 
 function renderPage(page) {
-    // console.log(page);
-
     if (page === 'about') {
         pageLocation = 'about';
         $('#body-container').css('display', 'block');
@@ -133,7 +126,6 @@ function renderPage(page) {
         $('#recent-work-container').css('display', 'none');
         $('#about-container').css('display', 'none');
         $('#contact-container').css('display', 'block');
-
     }
 }
 
