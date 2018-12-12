@@ -291,7 +291,7 @@ a {
   
         #header-container {
             height: 80px;
-            position: fixed;
+            position: relative;
         }
 
         #header-nav {
