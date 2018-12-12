@@ -97,10 +97,17 @@ a {
 }
 
 #logo {
-    width: 40%;
+/* original */
+    /* width: 40%;
     height: 100%;
-    top: 43px;;
-    left: 30px;
+    top: 43px;
+    left: 30px; */
+/* new */
+    width: 322px;
+    height: 100%;
+    top: 43px;
+    left: 3%;
+/*  */
     display: inline-block;
     position: relative;
 }
@@ -135,10 +142,9 @@ a {
 
 #nav-items {
     width: 36%;
-    height: 100%;
-    top: 31px;
-    left: 262px;
-    position: relative;
+    top: 88px;
+    left: 60%;
+    position: absolute;
     display: inline-block;
 }
 
