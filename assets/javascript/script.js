@@ -4,6 +4,11 @@ let header = document.getElementById("header-container");
 let sticky = header.offsetTop;
 
 
+$(document).ready(function() {
+    // animates loader off screen
+    $(".loading").fadeOut("slow");;
+});
+
 window.onscroll = function() {
     stickyHeader()
 };
