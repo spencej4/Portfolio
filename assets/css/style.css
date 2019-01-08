@@ -397,7 +397,7 @@ a {
         }
         
         .sticky {
-            top: -10px;
+            /* top: -10px; */
             border-bottom: none;
             background-color: transparent;
         }
