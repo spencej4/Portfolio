@@ -369,7 +369,7 @@ a {
         body {
             margin: 0;
             width: 100vw;
-            /* max-height: 100vh; */
+            height: 100vh;
             font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
             font-weight: 300;
             font-weight: 100;
