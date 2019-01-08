@@ -10,7 +10,11 @@ $(document).ready(function () {
 });
 
 window.onscroll = function () {
-    stickyHeader()
+    if(!mobileMenuRendered){
+        stickyHeader();
+    }else {
+        return
+    }
 };
 
 // sets header to fixed on Y axis scroll
