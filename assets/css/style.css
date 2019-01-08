@@ -54,6 +54,7 @@ body {
 
 .lock-scroll {
     overflow-x: hidden;
+    overflow-y: hidden;
     /* new 01-08-19 */
     position: relative;
     top: 0;
