@@ -21,7 +21,8 @@
 html {
   width: 100vw;
   height: 100vh;
-  position: absolute;
+  /* revisit */
+  /* position: absolute; */
 }
 
 body {
@@ -55,7 +56,7 @@ body {
 .lock-scroll {
     height: 100vh;
     overflow: hidden;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
 }
 
