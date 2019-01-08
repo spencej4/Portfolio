@@ -406,8 +406,10 @@ a {
         }
         
         .sticky {
+            /* display: none; */
             border-bottom: none;
             background-color: none;
+            border-bottom: 2px solid hotpink;
         }
 
         .sticky + .content {
