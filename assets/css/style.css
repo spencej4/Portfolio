@@ -415,6 +415,7 @@ a {
         }
 
         .pseudo-layer {
+            background-color: none;
             display: none;
             z-index: 0;
         }
