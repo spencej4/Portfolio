@@ -519,6 +519,15 @@ a {
             border-bottom: 1px solid rgba(225, 232, 244, 0.4);
         }
 
+        .pseudo-layer {
+            height: 0px;
+            background-color: transparent;
+            z-index: 1;
+            display: none;
+            position: fixed;
+            top: 0;
+        }
+
         .icon-large {
             width: 50px;
             height: 50;
