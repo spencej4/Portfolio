@@ -402,7 +402,7 @@ a {
         }
 
         .sticky + .content {
-            padding-top: -10px;
+            padding-top: -40px;
         }
 
         .nav-list {
