@@ -53,7 +53,7 @@ body {
 }
 
 .lock-scroll {
-    height: 100vh;
+    max-height: 100vh;
     overflow: hidden;
     position: fixed;
     top: 0;
