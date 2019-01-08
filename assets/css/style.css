@@ -370,6 +370,19 @@ a {
 
 /* MOBILE */
     @media (min-width: 320px) and (max-width: 734px) {
+        body {
+            margin: 0;
+            width: 100vw;
+            font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+            font-weight: 300;
+            font-weight: 100;
+            font-size: 14px;
+            line-height: 1;
+            background-color: hotpink;
+            background-image:none;
+            z-index: 1;
+        }
+
         .top-container {
             display: none;
             padding: 0;
