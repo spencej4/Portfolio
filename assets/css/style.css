@@ -113,7 +113,7 @@ a {
   top: 0;
   width: 100%;
   background-color: #FFFFFF;
-  border-bottom: 1px solid rgba(255,105,180 ,0.2 );
+  border-bottom: 1px solid rgba(255,105,180 ,0.5 );
 }
 
 .sticky + .content {
@@ -406,20 +406,13 @@ a {
         }
         
         .sticky {
-            /* display: none; */
+            display: none;
             border-bottom: none;
             background-color: none;
-            border-bottom: 2px solid hotpink;
         }
 
         .sticky + .content {
             padding-top: 0px;
-        }
-
-        .pseudo-layer {
-            background-color: none;
-            display: none;
-            z-index: 0;
         }
 
         .nav-list {
