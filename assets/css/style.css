@@ -242,7 +242,7 @@ a {
     height: 100%;
     margin-top: 4vh;
     display: block;
-    position: relative;
+    /* position: relative; */
     display: none;
 }
 
