@@ -23,10 +23,10 @@ window.onscroll = function () {
 function stickyHeader() {
     if (window.pageYOffset > sticky) {
         header.classList.add("sticky");
-        $('.pseudo-layer').css('display', 'inline-block');
+        // $('.pseudo-layer').css('display', 'inline-block');
     } else {
         header.classList.remove("sticky");
-        $('.pseudo-layer').css('display', 'none');
+        // $('.pseudo-layer').css('display', 'none');
     }
 }
 
