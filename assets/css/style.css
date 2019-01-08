@@ -378,7 +378,7 @@ a {
             font-weight: 100;
             font-size: 14px;
             line-height: 1;
-            background-color: hotpink;
+            background-color: white;
             background-image:none;
             z-index: 1;
         }
@@ -491,7 +491,7 @@ a {
             width: 330px;
             height: 100vh;
             display: block;
-            position: absolute;;
+            position: fixed;
             background-color: rgba(71, 76, 88, .85);
             z-index: 15;
             transition: transform 600ms;
