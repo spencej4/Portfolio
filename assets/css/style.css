@@ -54,6 +54,10 @@ body {
 
 .lock-scroll {
     overflow: hidden;
+    /* new 01-08-19 */
+    position: fixed;
+    top: 0;
+    /* end new */
 }
 
 .hidden {
