@@ -54,13 +54,13 @@ function toggleMobileMenu() {
 function lockScroll() {
     if (mobileMenuRendered) {
         $('body').addClass('lock-scroll');
-        $('#body-container').addClass('lock-scroll');
+        // $('#body-container').addClass('lock-scroll');
     } else if (window.screen.width <= 734) {
         $('body').addClass('lock-scroll');
-        $('#body-container').addClass('lock-scroll');
+        // $('#body-container').addClass('lock-scroll');
     } else if ($('body').hasClass('lock-scroll')) {
         $('body').removeClass('lock-scroll');
-        $('#body-container').removeClass('lock-scroll');
+        // $('#body-container').removeClass('lock-scroll');
     }
 }
 
