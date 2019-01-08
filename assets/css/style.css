@@ -397,13 +397,8 @@ a {
         }
         
         .sticky {
-            /* top: -10px; */
             border-bottom: none;
             background-color: transparent;
-        }
-
-        .sticky + .content {
-            /* padding-top: -10px; */
         }
 
         .nav-list {
