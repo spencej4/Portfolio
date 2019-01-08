@@ -407,6 +407,7 @@ a {
         
         .sticky {
             border-bottom: none;
+            background-color: none;
         }
 
         .sticky + .content {
