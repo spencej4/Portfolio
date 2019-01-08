@@ -100,8 +100,8 @@ a {
 }
 
 .top-container {
-  padding: 30px;
-  text-align: center;
+  /* padding: 30px;
+  text-align: center; */
 }
 
 .content {
@@ -387,8 +387,8 @@ a {
         }
 
         .top-container {
-            display: none;
-            padding: 0;
+            /* display: none;
+            padding: 0; */
         }
 
         #header-nav{
