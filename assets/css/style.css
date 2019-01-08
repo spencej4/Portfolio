@@ -406,13 +406,13 @@ a {
         }
         
         .sticky {
-            display: none;
+            
             border-bottom: none;
             background-color: none;
         }
 
         .sticky + .content {
-            padding-top: 0px;
+            padding-top: -10px;
         }
 
         .nav-list {
