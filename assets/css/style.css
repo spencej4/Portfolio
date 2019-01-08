@@ -397,12 +397,13 @@ a {
         }
         
         .sticky {
+            top: -10px;
             border-bottom: none;
             background-color: none;
         }
 
         .sticky + .content {
-            padding-top: -40px;
+            padding-top: -10px;
         }
 
         .nav-list {
