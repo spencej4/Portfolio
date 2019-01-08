@@ -478,8 +478,13 @@ a {
         .main_navbar {
             overflow: hidden;
             top: 0;
-            left: -330px;
-            width: 330px;
+            /* left: -330px; */
+            /* width: 330px; */
+            
+            /* revisit */
+            left: -100%;
+            width: 100%;
+
             height: 100vh;
             display: block;
             position: fixed;
