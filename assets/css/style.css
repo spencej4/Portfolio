@@ -155,7 +155,7 @@ a {
 #logo {
     width: 322px;
     height: 20px;
-    top: 0px;
+    top: -4px;
     display: inline-block;
     position: relative;
 }
