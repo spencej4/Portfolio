@@ -39,10 +39,27 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   z-index: 1;
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -moz-animation: fadein 3s; /* Firefox */
+    -ms-animation: fadein 3s; /* Internet Explorer */
+    -o-animation: fadein 3s; /* Opera */
+    animation: fadein 3s;
 }
 
-.no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+@keyframes fadein {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+        }
+
+.no-js #loader { 
+    display: none;  
+}
+.js #loader { 
+    display: block; 
+    position: absolute; 
+    left: 100px; 
+    top: 0; 
+}
 .loading {
 	position: fixed;
 	left: 0px;
@@ -211,10 +228,15 @@ a {
     text-transform: lowercase;
     letter-spacing: 3px;
     position: relative;
+    transition: color .5s;
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s
 }
 
 .nav-link:hover {
-  color: #000;
+  color: hotpink;
 }
 
 .nav-link:before {
@@ -222,14 +244,15 @@ a {
   position: absolute;
   width: 100%;
   height: 1px;
-  bottom: 0;
+  bottom: -8px;
   left: 0;
-  background-color: #000;
+  background-color: black;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
+  transition: all .5s;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
 }
 
 .nav-link:hover:before {
@@ -248,7 +271,7 @@ a {
 
 .page-title {
     font-weight: 100;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 /* -----------------------------about -----------------------------*/
@@ -263,14 +286,13 @@ a {
     #about-me {
         width: 100%; 
         height: 100%;
-        padding-top: 7%;
         display: block;
     }
 
     .about-font {
         font-weight: 100;
         color: grey;
-        font-size: 21px;
+        font-size: 28px;
         line-height: 1.5;
         padding: 0;
         text-align: center;
