@@ -118,11 +118,14 @@ function homepageCheck(boolean) {
         // show homepage
         $('body').css('background-color', 'black');
         $('body').css('background-image', 'url("https://images.unsplash.com/photo-1478031706604-bb4b7b0b4e9e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80")');
+        $('.cd-intro').css('display', 'block');
     }
     if (boolean === false) {
-        // don't show homepage background image
+        // don't render homepage background image
         $('body').css('background-image', 'none');
         $('body').css('background-color', 'white');
+        // don't render headline intro
+        $('.cd-intro').css('display', 'none');
     }
 }
 
