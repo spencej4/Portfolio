@@ -562,23 +562,27 @@ a {
         }
 
         .icon-inline:first-of-type {
-            margin-left: 157px;
+            /* margin-left: 157px; */
         }
 
         .icon-inline {
-            width: 22px;
-            height: 22px;
+            /* width: 22px;
+            height: 22px; */
             vertical-align: middle;
             display: inline-block;
         }
 
         .link-inline {
             display: inline-block;
+            padding-left: 19px;
         }
 
         #github{
+            width: 22px;
+            height: 22px;
             position: absolute;
             bottom: 377px;
+            left: 161px;
         }
 
         #jsfiddle {
@@ -586,7 +590,7 @@ a {
             height: 30px;
             position: absolute;
             bottom: 374px;
-            left: 50px
+            /* left: 50px */
         }
 
         .mobile-link {
