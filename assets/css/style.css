@@ -562,7 +562,7 @@ a {
         }
 
         .icon-inline:first-of-type {
-            margin-left: 166px;
+            margin-left: 157px;
         }
 
         .icon-inline {
@@ -578,14 +578,14 @@ a {
 
         #github{
             position: absolute;
-            bottom: 260px;
+            bottom: 377px;
         }
 
         #jsfiddle {
             width: 30px;
             height: 30px;
             position: absolute;
-            bottom: 257px;
+            bottom: 374px;
             left: 50px
         }
 
