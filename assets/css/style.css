@@ -197,7 +197,7 @@ a {
 
 #nav-items {
     width: 40%;
-    margin-top: 15px;
+    margin-top: 14px;
     float: right;
     display: inline-block;
 }
@@ -558,13 +558,8 @@ a {
             vertical-align: middle;
         }
 
-        .icon-inline:first-of-type {
-            /* margin-left: 157px; */
-        }
-
         .icon-inline {
-            
-            vertical-align: middle;
+``            vertical-align: middle;
             display: inline-block;
         }
 
