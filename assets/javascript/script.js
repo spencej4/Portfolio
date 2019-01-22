@@ -96,10 +96,6 @@ $('.nav-link, .mobile-link').click(function (e) {
             homepageCheck(false)
             renderPage('about');
             break;
-        case (id === 'background'):
-            homepageCheck(false)
-            renderPage('background');
-            break;
         case (id === 'recent-work'):
             homepageCheck(false);
             renderPage('recent');

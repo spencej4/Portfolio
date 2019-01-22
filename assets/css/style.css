@@ -326,10 +326,6 @@ a {
         height: 224px;
     }
 
-    .work-item-image:hover{
-        
-    }
-
     .work-copy {
         text-align: left;
         white-space: normal;
@@ -434,7 +430,7 @@ a {
         }
 
         #header-container {
-            height: 59px;
+            height: 55px;
             position: relative;
         }
 
@@ -597,10 +593,6 @@ a {
         .link-text {
             top: 0;
             display: inline-block;
-        }
-
-        .cd-headline {
-
         }
 
         #recent-work-container {
