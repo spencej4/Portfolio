@@ -351,6 +351,8 @@ a {
         color: #000;
         letter-spacing: 1px;
         line-height: 22px;
+        text-align: left;
+
     }
 
     .github-repo {
@@ -626,9 +628,11 @@ a {
 
         .github-repo {
             bottom: 0;
-            left: 106px;
+            left: 0;
             padding-bottom: 16px;
             position: absolute;
+            text-align: left;
+            color: hotpink;
         }
 
         .work-item:nth-of-type(2) {
