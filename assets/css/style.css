@@ -614,8 +614,7 @@ a {
             height: 377px;
             margin-bottom: 59px;
             padding-bottom: 20px;
-            border: 1px solid lightgrey;
-            background-color: rgba(18.8, 17.6, 18.4,0.1);
+            order: 1px solid rgba(210, 204, 209, 0.1)
         }
 
         .work-copy {
