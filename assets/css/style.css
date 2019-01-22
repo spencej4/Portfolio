@@ -21,8 +21,6 @@
 html {
   width: 100vw;
   height: 100vh;
-  /* revisit */
-  /* position: absolute; */
 }
 
 body {
@@ -35,10 +33,6 @@ body {
   line-height: 1;
   background-color: black;
   background-size: 100% 100%;
-  /* background-image: url("https://images.unsplash.com/photo-1478031706604-bb4b7b0b4e9e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"); */
-  /* background-image: url(
-    "../images/Dirty-Fog.png"
-  ); */
   background-image: url(
     "../images/bg-view.jpeg"
   );
@@ -46,7 +40,6 @@ body {
   background-position: center;
   z-index: 1;
 }
-
 
 .no-js #loader { 
     display: none;  
@@ -114,7 +107,6 @@ a {
     color: #000;
 }
 
-
 .content {
   padding: 16px;
 }
@@ -163,15 +155,8 @@ a {
     height: 77px;
     padding-left: 44px;
     padding-right: 30px;
-    z-index: 2;
-
-
-    /* background-color: rgba(145, 181, 215, 1.0); */
-    /* background-color: rgba(102, 112, 123, 1.0); */
-
-    /* background-color: rgba(127, 139, 157, 0.5); */
-    /* box-shadow: 0px 19px 33px -16px rgba(0,0,0,0.16); */
-    
+    z-index: 2;  
+    background-color: rgba(53, 59, 72, 0.5);  
 }
 
 #logo {
@@ -211,7 +196,7 @@ a {
 }
 
 #nav-items {
-    width: 51%;
+    width: 41%;
     margin-top: 15px;
     float: right;
     display: inline-block;
@@ -269,14 +254,16 @@ a {
 #body-container {
     width: 100%;
     height: 100%;
-    margin-top: 4vh;
+    margin-top: 7vh;
     display: block;
     position: relative;
 }
 
 .page-title {
     font-weight: 100;
-    font-size: 2.5em;
+    font-size: 1.8em;
+    color: rgba(53, 59, 72, 0.5);
+    letter-spacing: 0.5px;
 }
 
 /* -----------------------------about -----------------------------*/
@@ -297,8 +284,8 @@ a {
     .about-font {
         font-weight: 100;
         color: grey;
-        font-size: 28px;
-        line-height: 1.5;
+        font-size: 26px;
+        line-height: 1.3;
         padding: 0;
         text-align: center;
     }
@@ -339,6 +326,10 @@ a {
         height: 224px;
     }
 
+    .work-item-image:hover{
+        
+    }
+
     .work-copy {
         text-align: left;
         white-space: normal;
@@ -366,9 +357,10 @@ a {
         bottom: 0;
         text-decoration: none;
         cursor: pointer;
-        color: #000;
+        color: grey;
         font-size: 18px;
         position: absolute;
+        opacity: 0.6;
     }
 /* -------------------------contact me -----------------------------*/
 #contact-container {
@@ -382,13 +374,15 @@ a {
 }
 
     .contact {
-        font-size: 28px;
+        font-size: 26px;
         font-weight: 100;
+        color: grey;
     }
 
     .icon-large {
             width: 50px;
             height: 50;
+            opacity: 0.4;
     }
 
 
@@ -405,7 +399,6 @@ a {
             line-height: 1;
             background-color: black;
             background-size: auto 100%;
-            /* background-image: url("https://images.unsplash.com/photo-1478031706604-bb4b7b0b4e9e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"); */
             background-image: url(
                 "../images/bg-view.jpeg"
             );
@@ -552,6 +545,7 @@ a {
         .icon-large {
             width: 50px;
             height: 50;
+            opacity: 0.4;
         }
 
         .icon {
@@ -566,8 +560,7 @@ a {
         }
 
         .icon-inline {
-            /* width: 22px;
-            height: 22px; */
+            
             vertical-align: middle;
             display: inline-block;
         }
@@ -590,7 +583,6 @@ a {
             height: 30px;
             position: absolute;
             bottom: 374px;
-            /* left: 50px */
         }
 
         .mobile-link {
