@@ -18,7 +18,7 @@ window.onscroll = function () {
 };
 
 // sets header to fixed on Y axis scroll
-function stickyHeader() {
+stickyHeader = function() {
     if (window.pageYOffset > sticky) {
         header.classList.add("sticky");
         $('.pseudo-layer').css('display', 'inline-block');
