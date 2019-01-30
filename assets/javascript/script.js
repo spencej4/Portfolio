@@ -40,12 +40,14 @@ function toggleMobileMenu() {
         $(".main_navbar").toggleClass('animate');
         $(".side_nav_menu").fadeIn("fast");
         lockScroll();
+        $('.bar1, .bar2, .bar3').css('background-color', 'white');
         return
     } else if (mobileMenuRendered === true) {
         mobileMenuRendered = false;
         $(".main_navbar").toggleClass('animate');
         $("#side_nav_menu").fadeOut("fast");
         lockScroll();
+        $('.bar1, .bar2, .bar3').css('background-color', 'rgba(1, 1, 1, .9)');
         return
     }
 }
