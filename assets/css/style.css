@@ -305,6 +305,7 @@ a {
         height: 100%;
         margin: 0 auto;
         padding: 0 2% 0 2%;
+        
     }
 
     .work-item {
@@ -319,6 +320,15 @@ a {
     .work-item:nth-of-type(2) {
         margin-left: 5.5%;
         margin-right: 5.5%;
+        border-right: 1px solid lightgrey;
+        border-left: 1px solid lightgrey;
+    }
+
+    .work-item:nth-of-type(5) {
+        margin-left: 5.5%;
+        margin-right: 5.5%;
+        border-right: 1px solid lightgrey;
+        border-left: 1px solid lightgrey;
     }
 
     .work-item-image {
