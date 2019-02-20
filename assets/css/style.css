@@ -315,6 +315,7 @@ a {
         border-radius: 5px;
         float: left;
         position: relative;
+        border-bottom: 1px solid hotpink;
     }
 
     .work-item:nth-of-type(2) {
