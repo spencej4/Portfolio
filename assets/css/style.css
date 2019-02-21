@@ -33,9 +33,10 @@ body {
   line-height: 1;
   background-color: black;
   background-size: 100% 100%;
-  background-image: url(
+	/* here */
+  /*background-image: url(
     "../images/bg-view.jpeg"
-  );
+  );*/
   background-repeat: no-repeat;
   background-position: center;
   z-index: 1;
