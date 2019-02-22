@@ -95,6 +95,7 @@ a {
     font-weight: 100;
     /*end new*/
   }
+  
 }
 @media only screen and (min-width: 1170px) {
   .cd-headline {
@@ -775,6 +776,12 @@ xslide
 xclip 
 
 -------------------------------- */
+@media only screen and (min-width: 768px) {
+  /*  new  */
+.cd-headline.clip .cd-words-wrapper {
+  top: 1px;
+}
+  /*  end new  */
 .cd-headline.clip span {
   display: inline-block;
   padding: .2em 0;
@@ -783,7 +790,7 @@ xclip
   overflow: hidden;
   vertical-align: top;
 /*  new  */
-  top: 1px;
+  top: -2px;
 /*  end new  */
 }
 .cd-headline.clip .cd-words-wrapper::after {
