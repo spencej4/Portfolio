@@ -339,18 +339,18 @@ a {
         padding-bottom: 29%;
         padding-right: 2%;
         padding-left: 2%;
-        border-bottom: 1px solid rgba(0,0,0,.15);
+        border-bottom: 1px solid rgba(0,0,0,.05);
         padding-bottom: 36%;
     }
 
     .work-item:nth-of-type(2) {
-        border-right: 1px solid rgba(0,0,0,.15);
-        border-left: 1px solid rgba(0,0,0,.15);
+        border-right: 1px solid rgba(0,0,0,.05);
+        border-left: 1px solid rgba(0,0,0,.05);
     }
 
     .work-item:nth-of-type(5) {
-        border-right: 1px solid rgba(0,0,0,.15);
-        border-left: 1px solid rgba(0,0,0,.15);
+        border-right: 1px solid rgba(0,0,0,.05);
+        border-left: 1px solid rgba(0,0,0,.05);
     }
 
     .work-item:nth-of-type(4),
@@ -391,36 +391,6 @@ a {
         font-weight: 300;
         color: #000;
         letter-spacing: 1px;
-    }
-
-   .work-title:before {
-        position: absolute;
-        content: "";
-        left: 23.5%;
-        top: 279px;
-        height: 2px;
-        width: 34px;
-        background: #FF69B4;
-        margin-left: -77px;
-    }
-
-    .work-title-row2 {
-        font-size: 24px;
-        font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-        font-weight: 300;
-        color: #000;
-        letter-spacing: 1px;
-    }
-
-    .work-title-row2:before {
-        position: absolute;
-        content: "";
-        left: 23.5%;
-        top: 282px;
-        height: 2px;
-        width: 34px;
-        background: #FF69B4;
-        margin-left: -70px;
     }
 
     .work-description {
@@ -691,6 +661,10 @@ a {
             padding-left: 5px;
         }
 
+        .card {
+            height: 365px;
+        }
+
         .work-item {
             width: 100%;
             height: 377px;
@@ -714,15 +688,6 @@ a {
             text-align: left;
         }
 
-        .work-title:before {
-            left: 21.5%;
-            top: 245px;
-        }
-
-        .work-title-row2:before {
-            left: 21.5%;
-            top: 260px;
-        }
 
         .work-title, .work-description, .github-repo {
             color: #000;
