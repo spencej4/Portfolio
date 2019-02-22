@@ -8,6 +8,9 @@
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- new -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700i" rel="stylesheet">
+    <!-- end new -->
     <link rel="stylesheet" type="text/css" href="assets/css/headlines.css">
     <script src='assets/javascript/headlines.js'></script>
 </head>
@@ -16,6 +19,9 @@
     <div class="loading"></div>
     <header id='header-nav'>
         <div id='header-container'>
+            <!-- new -->
+            <div id='logo-image'></div>
+            <!-- end new -->
             <div id='logo'>
                 <a href="https://spencej4.github.io/Portfolio/" target="_blank">
                     <p class='logo-font'>
@@ -52,7 +58,7 @@
             </nav>
             <div id='nav-items'>
                 <ul class='nav-list'>
-                    <li class='nav-item'><a href='#' class='nav-link' id='home'>Home</a></li>
+                    <li class='nav-item'><a href='#' class='nav-link active' id='home'>Home</a></li>
                     <li class='nav-item'><a href='' class='nav-link' id='about'>About Me</a></li>
                     <li class='nav-item'><a href='' class='nav-link' id='recent-work'>Recent Work</a></li>
                     <li class='nav-item'><a href='' class='nav-link' id='contact'>Contact Me</a></li>
@@ -75,29 +81,33 @@
 
         <div id='about-container'>
             <div id='about-me'>
-                <p class='page-title'>
-                    _I'm a Developer_
-                </p>
-                <br>
-                <p class='about-font'>
-                    My proficencies include:
-                    <br>
-                    <ul class='about-font'>
-                        <li class='about-font'>+Javascript</li>
-                        <li class='about-font'>+React</li>
-                        <li class='about-font'>+Express</li>
-                        <li class='about-font'>+Node</li>
-                        <li class='about-font'>+MySQL</li>
-                        <li class='about-font'>+Mongo</li>
-                        <li class='about-font'>+HTML and CSS</li>
-                    </ul>
-                </p>
+                <div class='page-title'>
+                    <h2>
+                        <strong>I'M A DEVELOPER</strong>
+                    </h2>
+                </div>
             </div>
+            <br>
+            <p class='about-font'>
+                My proficencies include:
+                <br>
+                <ul class='about-font'>
+                    <li class='about-font'>+Javascript</li>
+                    <li class='about-font'>+React</li>
+                    <li class='about-font'>+Express</li>
+                    <li class='about-font'>+Node</li>
+                    <li class='about-font'>+MySQL</li>
+                    <li class='about-font'>+Mongo</li>
+                    <li class='about-font'>+HTML and CSS</li>
+                </ul>
+            </p>
         </div>
         <div id='recent-work-container'>
-            <p class='page-title'>
-                _Recent Work_
-            </p>
+            <div class='page-title'>
+                <h2>
+                    <strong>RECENT WORK</strong>
+                </h2>
+            </div>
             <br>
             <div id='work-items'>
                 <div class='work-item'>
@@ -178,7 +188,11 @@
             </div> <!-- work items -->
         </div> <!-- recent work container -->
         <div id='contact-container'>
-            <p class='page-title'>_Contact Me_</p>
+            <div class='page-title'>
+                <h2>
+                    <strong>GET IN TOUCH</strong>
+                </h2>
+            </div>
             <img src='assets/images/email.png' class='icon-large'>
             <p class='contact'>Spencerjack.sj@gmail.com</p>
             <img src='assets/images/location.png' class='icon-large'>
