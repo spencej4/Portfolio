@@ -417,8 +417,8 @@ a {
 /* -------------------------contact me -----------------------------*/
 #contact-container {
     width: 100%;
-    height: 100vh;
-    margin: 0 auto 10% auto;;
+    height: 100%;
+    margin: 0 auto;
     padding-left: 16px;
     padding-right: 16px;
     text-align: center;
