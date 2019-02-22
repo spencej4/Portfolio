@@ -26,7 +26,7 @@ html {
 body {
   margin: 0;
   width: 100vw;
-  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', 'Roboto', 'Helvetica', sans-serif;
   font-weight: 300;
   font-weight: 100;
   font-size: 14px;
@@ -58,7 +58,6 @@ body {
 	height: 100%;
 	z-index: 9999;
 	background: url(../images/loading.gif) center no-repeat #fff;
-    background-color: black;
 }
 
 .lock-scroll {
@@ -157,8 +156,7 @@ a {
     padding-left: 44px;
     padding-right: 30px;
     z-index: 2;  
-    background-color: rgba(53, 59, 72, 0.35);  
-    box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+    background-color: rgba(53, 59, 72, 0.5);  
 }
 
 #logo {
@@ -167,6 +165,7 @@ a {
     top: -8px;
     display: inline-block;
     position: relative;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 'Helvetica', 'Roboto', "Lucida Grande", sans-serif;
 }
 
 .logo-font {
@@ -175,16 +174,15 @@ a {
     display: inline-block;
     text-transform: uppercase;
     letter-spacing: -2px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 'Helvetica', 'Roboto', "Lucida Grande", sans-serif;
 }
 
 .logo-font-with-color {
     margin-left: 2%;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 'Helvetica', 'Roboto', "Lucida Grande", sans-serif;
     font-weight: 100;
     font-size: 30px;
     display: inline-block;
-    /* original */
-    /* color:  hotpink;  */
     color: #FF69B4;
     text-transform: uppercase;
     letter-spacing: 7px;
@@ -229,10 +227,6 @@ a {
     transition-delay: 0s
 }
 
-/* .nav-link:hover {
-  color: white;
-} */
-
 .nav-link:before {
   content: "";
   position: absolute;
@@ -269,10 +263,9 @@ a {
 
 .page-title {
     font-weight: 100;
-    font-size: 1.5em;
-    /* color: rgba(53, 59, 72, 0.8); */
-    color: rgba(50, 50, 50, 1);
-    letter-spacing: -0.2px;
+    font-size: 1.8em;
+    color: rgba(53, 59, 72, 0.5);
+    letter-spacing: 0.5px;
 }
 
 /* -----------------------------about -----------------------------*/
@@ -535,6 +528,8 @@ a {
             background-color: rgba(0,0,0,.7);
             z-index: 15;
             transition: transform 600ms;
+            /* transition-timing-function: cubic-bezier(0,1.09,.82,1.07); */
+
             transition-timing-function: cubic-bezier(0,1.0,.82,1.0);
         }
 

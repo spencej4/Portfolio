@@ -20,9 +20,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  /* original */
-  /* font-family: "Source Sans Pro", sans-serif; */
-  font-family: 'Playfair Display', serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: #aebcb9;
   background-color: #0d0d0d;
 }
@@ -70,6 +68,15 @@ a {
   .cd-intro {
     margin: 10em auto;
   }
+/*  new  */
+  .cd-words-wrapper {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+  }
+   /*end new*/
 }
 @media only screen and (min-width: 1170px) {
   .cd-intro {
@@ -88,11 +95,24 @@ a {
     font-size: 3.4rem;
     font-weight: 100;
   }
+  .cd-words-wrapper {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    /*new*/
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+    /*end new*/
+  }
+  
 }
 @media only screen and (min-width: 1170px) {
   .cd-headline {
-    font-size: 3.4rem;
     font-weight: 100;
+/* new */
+    font-size: 5.4rem;
+    width: 100%;
+/*end new */
   }
 }
 
@@ -100,6 +120,9 @@ a {
   display: inline-block;
   position: relative;
   text-align: left;
+  /*new*/
+  font-family: 'Playfair Display', serif;
+  /*end new*/
 }
 .cd-words-wrapper b {
   display: inline-block;
@@ -765,16 +788,27 @@ xslide
 xclip 
 
 -------------------------------- */
+/*  new  */
+/* @media (min-width: 320px) and (max-width: 734px) {
+.cd-headline.clip .cd-words-wrapper {
+  top: 1px;
+} */
+/*  end new  */
 .cd-headline.clip span {
   display: inline-block;
   padding: .2em 0;
 }
-.cd-headline.clip .cd-words-wrapper {
-  overflow: hidden;
-  vertical-align: top;
+  /*  new  */
+@media only screen and (min-width: 768px) {
+  .cd-headline.clip .cd-words-wrapper {
+    overflow: hidden;
+    vertical-align: top;
+    top: -2px;
+  }
 }
+  /*  end new  */
 .cd-headline.clip .cd-words-wrapper::after {
-  /* line */
+  /* underline */
   content: '';
   position: absolute;
   top: 0;

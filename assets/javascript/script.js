@@ -149,13 +149,6 @@ function renderPage(page) {
     }
 }
 
-var btnContainer = document.getElementById("nav-items");
-var btns = btnContainer.getElementsByClassName("nav-link");
-
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
+$(window).on("load",function(){
+    $('body').css('background-image','url("assets/images/bg-view.jpeg")');
+}); 
