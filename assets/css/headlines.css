@@ -98,6 +98,9 @@ a {
   display: inline-block;
   position: relative;
   text-align: left;
+  /*new*/
+  font-family: 'Playfair Display', serif;
+  /*end new*/
 }
 .cd-words-wrapper b {
   display: inline-block;
