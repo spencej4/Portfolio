@@ -796,13 +796,13 @@ xclip
   padding: .2em 0;
 }
   /*  new  */
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   .cd-headline.clip .cd-words-wrapper {
     overflow: hidden;
     vertical-align: top;
     top: -2px;
   }
-}
+} */
   /*  end new  */
 .cd-headline.clip .cd-words-wrapper::after {
   /* underline */
