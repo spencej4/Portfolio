@@ -108,9 +108,11 @@ a {
 }
 @media only screen and (min-width: 1170px) {
   .cd-headline {
+    font-weight: 100;\
+/* new */
     font-size: 5.4rem;
-    font-weight: 100;
     width: 100%;
+/*end new */
   }
 }
 
