@@ -328,7 +328,7 @@ a {
     #work-items {
         width: 100%;
         height: 100%;
-        margin: 0 auto;        
+        margin: 0 auto 350px auto;        
     }
 
     .work-item {
