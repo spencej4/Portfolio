@@ -699,12 +699,17 @@ a {
         }
 
         .work-copy {
-            text-align: center
+            text-align: left;
         }
 
         .work-title:before {
-            left: 27.5%;
-            top: 247px;
+            left: 22.5%;
+            top: 243px;
+        }
+
+        .work-title-row2:before {
+            left: 22.5%;
+            top: 258px;
         }
 
         .work-title, .work-description, .github-repo {
@@ -713,7 +718,7 @@ a {
 
         .github-repo {
             bottom: 0;
-            left: 0;
+            left: 6px;
             padding-bottom: 16px;
             position: absolute;
             text-align: left;
