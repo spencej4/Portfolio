@@ -183,7 +183,7 @@ a {
     font-weight: 100;
     font-size: 30px;
     display: inline-block;
-    color:  hotpink; 
+/*     color:  hotpink;  */
     text-transform: uppercase;
     letter-spacing: 7px;
 }
