@@ -783,11 +783,11 @@ xclip
   overflow: hidden;
   vertical-align: top;
 /*  new  */
-  top: 2px;
+  top: 1px;
 /*  end new  */
 }
 .cd-headline.clip .cd-words-wrapper::after {
-  /* line */
+  /* underline */
   content: '';
   position: absolute;
   top: 0;
