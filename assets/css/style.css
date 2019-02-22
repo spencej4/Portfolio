@@ -234,12 +234,12 @@ a {
   height: 1px;
   bottom: -8px;
   left: 0;
-  background-color: black;
+  background-color: #FF69B4;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
-  transition: all .5s;
-  transition-duration: 0.5s;
+  transition: all .3s;
+  transition-duration: 0.3s;
   transition-timing-function: ease;
 }
 
@@ -249,9 +249,10 @@ a {
   transform: scaleX(1);
 }
 
-.active, .nav-link:hover {
+.nav-link:hover, .active{
   color: white;
 }
+
 
 #body-container {
     width: 100%;
@@ -264,8 +265,30 @@ a {
 .page-title {
     font-weight: 100;
     font-size: 1.8em;
-    color: rgba(53, 59, 72, 0.5);
+    color: rgba(86, 96, 117, 0.9);
     letter-spacing: 0.5px;
+}
+
+.page-title h2:before {
+    position: absolute;
+    content: "";
+    left: 49%;
+    top: 50px;
+    height: 2px;
+    width: 160px;
+    background: #FF69B4;
+    margin-left: -70px;
+}
+
+.page-title h2:after {
+    position: absolute;
+    content: "";
+    left: 49%;
+    top: 60px;
+    height: 2px;
+    width: 80px;
+    background: #FF69B4;
+    margin-left: -30px;
 }
 
 /* -----------------------------about -----------------------------*/
@@ -353,6 +376,36 @@ a {
         font-weight: 300;
         color: #000;
         letter-spacing: 1px;
+    }
+
+   .work-title:before {
+        position: absolute;
+        content: "";
+        left: 23.5%;
+        top: 281px;
+        height: 2px;
+        width: 34px;
+        background: #FF69B4;
+        margin-left: -70px;
+    }
+
+    .work-title-row2 {
+        font-size: 24px;
+        font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        color: #000;
+        letter-spacing: 1px;
+    }
+
+    .work-title-row2:before {
+        position: absolute;
+        content: "";
+        left: 23.5%;
+        top: 331px;
+        height: 2px;
+        width: 34px;
+        background: #FF69B4;
+        margin-left: -70px;
     }
 
     .work-description {
@@ -528,8 +581,6 @@ a {
             background-color: rgba(0,0,0,.7);
             z-index: 15;
             transition: transform 600ms;
-            /* transition-timing-function: cubic-bezier(0,1.09,.82,1.07); */
-
             transition-timing-function: cubic-bezier(0,1.0,.82,1.0);
         }
 
@@ -649,6 +700,11 @@ a {
 
         .work-copy {
             text-align: center
+        }
+
+        .work-title:before {
+            left: 27.5%;
+            top: 247px;
         }
 
         .work-title, .work-description, .github-repo {

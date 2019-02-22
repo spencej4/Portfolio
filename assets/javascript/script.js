@@ -2,6 +2,8 @@ let pageLocation = '';
 let mobileMenuRendered = false;
 let header = document.getElementById("header-container");
 let sticky = header.offsetTop;
+let btnContainer = document.getElementById("nav-items");
+let btns = btnContainer.getElementsByClassName("nav-link");
 
 
 // $(document).ready(function () {
@@ -117,12 +119,14 @@ function homepageCheck(boolean) {
         // show homepage
         $('body').css('background-color', 'black');
         $('body').css('background-image', 'url("./assets/images/bg-view.jpeg")');
+        $('#header-container').css('background-color', 'rgba(53, 59, 72, 0.5)');
     }
     if (boolean === false) {
         // don't render homepage background image
         $('body').css('background-image', 'none');
         $('body').css('background-color', 'white');
         $('.cd-intro').css('display', 'none');
+        $('#header-container').css('background-color', 'rgba(86,96,117,0.8)');
     }
 }
 
@@ -149,6 +153,11 @@ function renderPage(page) {
     }
 }
 
-$(window).on("load",function(){
-    $('body').css('background-image','url("assets/images/bg-view.jpeg")');
-}); 
+// adds active class to links when clicked
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
