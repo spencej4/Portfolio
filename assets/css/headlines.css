@@ -86,6 +86,15 @@ a {
     font-size: 3.4rem;
     font-weight: 100;
   }
+  .cd-words-wrapper {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    /*new*/
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+    /*end new*/
+  }
 }
 @media only screen and (min-width: 1170px) {
   .cd-headline {
