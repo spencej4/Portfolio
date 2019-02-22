@@ -148,5 +148,6 @@ function renderPage(page) {
     }
 }
 
-
-
+$(window).on("load",function(){
+    $('body').css('background-image','url("assets/images/bg-view.jpeg")');
+}); 
