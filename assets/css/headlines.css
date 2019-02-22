@@ -68,6 +68,15 @@ a {
   .cd-intro {
     margin: 10em auto;
   }
+/*  new  */
+  .cd-words-wrapper {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+  }
+   /*end new*/
 }
 @media only screen and (min-width: 1170px) {
   .cd-intro {
@@ -786,13 +795,15 @@ xclip
   display: inline-block;
   padding: .2em 0;
 }
-.cd-headline.clip .cd-words-wrapper {
-  overflow: hidden;
-  vertical-align: top;
-/*  new  */
-  top: -2px;
-/*  end new  */
+  /*  new  */
+@media only screen and (min-width: 768px) {
+  .cd-headline.clip .cd-words-wrapper {
+    overflow: hidden;
+    vertical-align: top;
+    top: -2px;
+  }
 }
+  /*  end new  */
 .cd-headline.clip .cd-words-wrapper::after {
   /* underline */
   content: '';
