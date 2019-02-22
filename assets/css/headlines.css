@@ -776,12 +776,12 @@ xslide
 xclip 
 
 -------------------------------- */
-@media only screen and (min-width: 768px) {
-  /*  new  */
+/*  new  */
+@media (min-width: 320px) and (max-width: 734px) {
 .cd-headline.clip .cd-words-wrapper {
   top: 1px;
 }
-  /*  end new  */
+/*  end new  */
 .cd-headline.clip span {
   display: inline-block;
   padding: .2em 0;
