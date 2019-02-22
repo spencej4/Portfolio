@@ -165,6 +165,7 @@ a {
     top: -8px;
     display: inline-block;
     position: relative;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 'Helvetica', 'Roboto', "Lucida Grande", sans-serif;
 }
 
 .logo-font {
@@ -173,11 +174,12 @@ a {
     display: inline-block;
     text-transform: uppercase;
     letter-spacing: -2px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 'Helvetica', 'Roboto', "Lucida Grande", sans-serif;
 }
 
 .logo-font-with-color {
     margin-left: 2%;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 'Helvetica', 'Roboto', "Lucida Grande", sans-serif;
     font-weight: 100;
     font-size: 30px;
     display: inline-block;
