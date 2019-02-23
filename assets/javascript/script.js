@@ -44,6 +44,7 @@ function toggleMobileMenu() {
         $(".side_nav_menu").fadeIn("fast");
         lockScroll();
         $('.bar1, .bar2, .bar3').css('background-color', 'white');
+        $('.logo-font').css('color', 'white');
         return
     } else if (mobileMenuRendered === true) {
         mobileMenuRendered = false;
@@ -51,6 +52,7 @@ function toggleMobileMenu() {
         $("#side_nav_menu").fadeOut("fast");
         lockScroll();
         $('.bar1, .bar2, .bar3').css('background-color', 'rgba(1, 1, 1, .9)');
+        $('.logo-font').css('color', 'black');
         return
     }
 }

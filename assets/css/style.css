@@ -548,6 +548,7 @@ a {
             top: 13px;
             left: 17px;
             width: 57%;
+            z-index: 18;
         }
 
         .logo-font {
