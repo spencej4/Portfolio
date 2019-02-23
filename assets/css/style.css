@@ -282,6 +282,7 @@ a {
     font-size: 1.8em;
     color: rgba(86, 96, 117, 0.9);
     letter-spacing: 0.5px;
+    margin-bottom: 2%;
 }
 
 .page-title h2:before {
@@ -841,5 +842,4 @@ a {
         width: 23%;
         opacity: 0.7;
     }
-
 }
