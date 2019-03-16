@@ -33,9 +33,9 @@ body {
   line-height: 1;
   background-color: #0d0d0d;
   background-size: 100% 100%;
-  background-image: url(
+  /* background-image: url(
     "../images/bg-view.jpeg"
-  );
+  ); */
   background-repeat: no-repeat;
   background-position: center;
   z-index: 1;
@@ -116,7 +116,7 @@ a {
   top: 0;
   width: 100%;
   background-color: none;
-  border-bottom: 1px solid rgba(255,105,180 ,0.5 );
+  /* border-bottom: 1px solid rgba(255,105,180 ,0.5 ); */
 }
 
 .sticky + .content {
@@ -193,7 +193,8 @@ a {
     letter-spacing: -2px;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
-    color: black;
+    font-style: italic;
+    color: white;
 }
 
 .logo-font-with-color {
@@ -202,10 +203,11 @@ a {
     font-weight: 100;
     font-size: 55px;
     display: inline-block;
-    color: black;
+    color: white;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
+    font-style: italic;
 }
 
 
@@ -233,8 +235,10 @@ a {
 
 .nav-link {
     text-decoration: none;
-    /* color: black; */
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
     font-weight: 100;
     line-height: 1;
     font-size: 15px;    
@@ -290,6 +294,7 @@ a {
     margin-bottom: 12%;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
+    font-style: italic;
 }
 
 .page-title h2:before {

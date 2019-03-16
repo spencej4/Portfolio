@@ -21,7 +21,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Source Sans Pro", sans-serif;
-  color: #aebcb9;
+  color: white;
   background-color: #0d0d0d;
 }
 
@@ -73,14 +73,16 @@ a {
     display: inline-block;
     position: relative;
     text-align: left;
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Oswald', sans-serif;
     font-weight: 100;
+    color: white;
   }
    /*end new*/
 }
 @media only screen and (min-width: 1170px) {
   .cd-intro {
-    margin: 10em auto;
+       margin: 23em 0 23em 28em;
   }
 }
 
@@ -102,6 +104,7 @@ a {
     /*new*/
     font-family: 'Playfair Display', serif;
     font-weight: 100;
+    color: white;
     /*end new*/
   }
   
@@ -109,10 +112,8 @@ a {
 @media only screen and (min-width: 1170px) {
   .cd-headline {
     font-weight: 100;
-/* new */
     font-size: 6.4rem;
     width: 100%;
-/*end new */
   }
 }
 
@@ -120,9 +121,9 @@ a {
   display: inline-block;
   position: relative;
   text-align: left;
-  /*new*/
-  font-family: 'Playfair Display', serif;
-  /*end new*/
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Oswald', sans-serif;
+  color: white;
 }
 .cd-words-wrapper b {
   display: inline-block;
@@ -797,13 +798,19 @@ xclip
 .cd-headline.clip span {
   display: inline-block;
   padding: .2em 0;
+  /* color: white; */
+  /* color: lightgrey; */
 }
   /*  new  */
 @media only screen and (min-width: 768px) {
   .cd-headline.clip .cd-words-wrapper {
     overflow: hidden;
     vertical-align: top;
-    top: -2px;
+    top: -6px;
+  }
+  .cd-words-wrapper:is-visilbe{
+    color:white;
+    font-style: italic;
   }
 }
   /*  end new  */
