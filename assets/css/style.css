@@ -310,8 +310,8 @@ a {
 .page-title h2:before {
     position: absolute;
     content: "";
-    left: 49%;
-    top: 138px;
+    left: 48%;
+    top: 107px;
     height: 2px;
     width: 160px;
     background: #FF69B4;
@@ -321,8 +321,8 @@ a {
 .page-title h2:after {
     position: absolute;
     content: "";
-    left: 49%;
-    top: 153px;
+    left: 48%;
+    top: 119px;
     height: 2px;
     width: 80px;
     background: #FF69B4;
@@ -552,7 +552,7 @@ a {
         }
 
         #header-nav {
-            height: 13vh;
+            height: 6vh;
         }
 
         #logo {
