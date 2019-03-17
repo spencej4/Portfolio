@@ -543,7 +543,8 @@ a {
 
         #header-container {
             height: 55px;
-            position: relative;
+            /* position: relative; */
+            position: fixed;
         }
 
         #header-nav {
