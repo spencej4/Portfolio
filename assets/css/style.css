@@ -304,8 +304,8 @@ a {
 .page-title h2:before {
     position: absolute;
     content: "";
-    left: 48%;
-    top: 107px;
+    left: 49%;
+    top: 130px;
     height: 2px;
     width: 160px;
     background: #FF69B4;
@@ -315,8 +315,8 @@ a {
 .page-title h2:after {
     position: absolute;
     content: "";
-    left: 48%;
-    top: 119px;
+    left: 49%;
+    top: 139px;
     height: 2px;
     width: 80px;
     background: #FF69B4;
@@ -612,7 +612,6 @@ a {
         }
 
         .main_navbar {
-            /* overflow: hidden; */
             top: 0;
             left: -100vw;
             width: 100vw;
@@ -713,6 +712,28 @@ a {
         .link-text {
             top: 0;
             display: inline-block;
+        }
+
+        .page-title h2:before {
+            position: absolute;
+            content: "";
+            left: 48%;
+            top: 109px;
+            height: 2px;
+            width: 160px;
+            background: #FF69B4;
+            margin-left: -70px;
+        }
+
+        .page-title h2:after {
+            position: absolute;
+            content: "";
+            left: 48%;
+            top: 119px;
+            height: 2px;
+            width: 80px;
+            background: #FF69B4;
+            margin-left: -30px;
         }
 
         #recent-work-container {
