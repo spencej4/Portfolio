@@ -174,7 +174,7 @@ a {
 }
 
 #logo {
-    width: 322px;
+    width: 61%;
     height: 20px;
     top: -41.4px;
     display: inline-block;
@@ -185,7 +185,7 @@ a {
     font-size: 55px;
     display: inline-block;
     text-transform: uppercase;
-    letter-spacing: -2px;
+    letter-spacing: -5px;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     color: white;
@@ -201,6 +201,7 @@ a {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 'Helvetica', 'Roboto', "Lucida Grande", sans-serif;
     font-weight: 100;
     font-size: 55px;
+    letter-spacing: 10px;
     display: inline-block;
     color: white;
     text-transform: uppercase;
