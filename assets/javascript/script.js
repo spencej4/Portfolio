@@ -40,7 +40,7 @@ $('.hamburger_click_me').click(function () {
 function toggleMobileMenu() {
     if (mobileMenuRendered === false) {
         mobileMenuRendered = true;
-        $(".main_navbar, .mobile-link").toggleClass('animate');
+        $(".main_navbar, .mobile-link, .mobile-icons-container").toggleClass('animate');
         $(".side_nav_menu").fadeIn("fast");
         lockScroll();
         $('.bar1, .bar2, .bar3').css('background-color', 'white');
@@ -48,7 +48,7 @@ function toggleMobileMenu() {
         return
     } else if (mobileMenuRendered === true) {
         mobileMenuRendered = false;
-        $(".main_navbar, .mobile-link").toggleClass('animate');
+        $(".main_navbar, .mobile-link, .mobile-icons-container").toggleClass('animate');
         $("#side_nav_menu").fadeOut("fast");
         lockScroll();
         $('.logo-font').css('color', 'white');

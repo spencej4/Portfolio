@@ -676,9 +676,27 @@ a {
             display: inline-block;
         }
 
+        .mobile-icons-container {
+            bottom: 40px;
+            left: -44px;
+            width: 100%;
+            height: 22px;
+            position: absolute;
+            transition: transform 600ms;
+            transition-timing-function: cubic-bezier(0,1.09,.82,4.0);
+        }
+
+        .mobile-icons-container.animate {
+            transform: translateX(10vw);
+        }
+
         .link-inline {
             display: inline-block;
             padding-left: 19px;
+/* new */
+            transition: transform 600ms;
+            transition-timing-function: cubic-bezier(0,1.09,.82,4.0);
+/* end new */
         }
 
         #github{
@@ -698,7 +716,7 @@ a {
 
         .mobile-link {
             position: absolute;
-            left: 16%;
+            left: 19%;
             margin-left: 12px;
             height: 51px;
             text-align: center;
