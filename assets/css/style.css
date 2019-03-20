@@ -771,7 +771,7 @@ a {
 
 
         .work-title, .work-description, .github-repo {
-            color: #000;
+            color: rgba(241, 241, 241, 0.9);
         }
 
         .github-repo {
