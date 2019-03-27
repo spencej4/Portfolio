@@ -837,13 +837,41 @@ a {
         left: 72.7%;
     }
 
-    #recent-work-container {
-        padding-right: 104px;
-        padding-left: 104px;
+    .page-title h2:before{
+        position: absolute;
+        content: "";
+        left: 49.5%;
+        top: 71px;
+        height: 2px;
+        width: 160px;
+        background: #FF69B4;
+        margin-left: -70px;
     }
+
+    .page-title h2:after {
+        position: absolute;
+        content: "";
+        left: 49.5%;
+        top: 89px;
+        height: 2px;
+        width: 80px;
+        background: #FF69B4;
+        margin-left: -30px;
+    }
+
+    #about-container,
+    #recent-work-container,
+    #contact-container {
+        padding: 0 16px;
+    }
+
+    #recent-work-container {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
     .work-item {
         width: 23%;
-        /* height: 10%; */
         padding-bottom: 25%;
         margin-bottom: 0%;
         position: relative;

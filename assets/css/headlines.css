@@ -1319,3 +1319,9 @@ xpush
     transform: translateX(100%);
   }
 }
+
+@media (min-width: 2000px) {
+  .cd-intro {
+    margin: 43em 0 23em 54em;
+  }
+}
